@@ -1,13 +1,6 @@
 html {
     --container: 1180px;
     --padding-container: 10px;
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
 }
 
 body {
@@ -16,6 +9,10 @@ body {
     min-height: 100vh;
     background-color: #FFFFFF;
     color: #333333;
+    width: 1440px;
+}
+
+.body-container {
     width: 1180px;
     margin-left: auto;
     margin-right: auto;
@@ -67,15 +64,23 @@ fieldset {
     transform: scale(0);
 }
 
-.container {
-    max-width: calc(var(--container) + var(--padding-container) * 2);
-    padding: 0 var(--padding-container);
-    margin: 0 auto;
+.second-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #333333;
 }
 
 .hero {
     width: 1180px;
     height: 616px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.main {
     display: flex;
     flex-direction: column;
 }
@@ -117,4 +122,92 @@ fieldset {
 .hero-img {
     width: 1180px;
     height: 440px;
+}
+
+.about {
+    width: 1180px;
+    height: 602px;
+    top: 921px;
+    left: 130px;
+    margin-bottom: 80px;
+}
+
+.products {
+    width: 1180px;
+    height: 985px;
+    margin-bottom: 80px;
+}
+
+.products-items {
+    height: 985px;
+    row-gap: 25px;
+    column-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.title-product {
+    width: 283px;
+    height: 58px;
+    margin-bottom: 32px;
+}
+
+.title-about {
+    width: 480px;
+    height: 58px;
+    margin-bottom: 32px;
+}
+
+.title-map {
+    width: 340px;
+    height: 58px;
+    margin-bottom: 32px;
+}
+
+.title-news {
+    width: 340px;
+    height: 58px;
+    margin-bottom: 32px;
+}
+
+.map {
+    width: 1180px;
+    height: 805px;
+    margin-bottom: 80px;
+}
+
+.news {
+    width: 1180px;
+    height: 568px;
+    margin-bottom: 80px;
+}
+
+.bg {
+    width: 380px;
+    height: 435px;
+}
+
+.product {
+    width: 1180px;
+}
+
+.new {
+    width: 380px;
+height: 478px;
+grid-row: 20px;
+}
+
+.new-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 1440px;
+    height: 361px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
 }
