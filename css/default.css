@@ -180,9 +180,14 @@ fieldset {
 }
 
 
-.map {
+.map-conrainer {
     height: 805px;
     margin-bottom: 80px;
+}
+
+.map{
+    height: 715px;
+    padding: 3.92px 24.53px 32.24px 3.57px;
 }
 
 .news {
