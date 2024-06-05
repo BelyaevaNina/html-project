@@ -65,6 +65,8 @@ fieldset {
 .main {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-container {
@@ -181,7 +183,8 @@ fieldset {
 
 .footer {
     width: 100%;
-   
+    margin-left: auto;
+    margin-right: auto;
     height: 361px;
     margin:0 auto;
 }
