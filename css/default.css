@@ -186,8 +186,9 @@ fieldset {
 }
 
 .map{
+    width: 1180px;
     height: 715px;
-    padding: 3.92px 24.53px 32.24px 3.57px;
+    padding: 4px 25px 32px 4px;
 }
 
 .news {
