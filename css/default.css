@@ -1,21 +1,15 @@
-html {
-    --container: 1180px;
-    --padding-container: 10px;
-}
 
-body {
+.body-container {
+    width: 100%;
     font-family: 'Source Sans 3';
     min-width: 320px;
     min-height: 100vh;
     background-color: #FFFFFF;
     color: #333333;
-    width: 1440px;
-}
-
-.body-container {
-    width: 1180px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 auto;
 }
 
 img,
@@ -31,17 +25,6 @@ svg {
     background-color: transparent;
     border: noner;
     cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 h1,
@@ -67,13 +50,12 @@ fieldset {
 .second-title {
     font-size: 48px;
     font-weight: 700;
-    line-height: 57.6px;
+    line-height: 57px;
     text-align: left;
     color: #333333;
 }
 
 .hero {
-    width: 1180px;
     height: 616px;
     display: flex;
     flex-direction: column;
@@ -86,7 +68,6 @@ fieldset {
 }
 
 .hero-container {
-    width: 1180px;
     height: 616px;
     display: flex;
     flex-direction: row;
@@ -125,7 +106,6 @@ fieldset {
 }
 
 .about {
-    width: 1180px;
     height: 602px;
     top: 921px;
     left: 130px;
@@ -133,7 +113,6 @@ fieldset {
 }
 
 .products {
-    width: 1180px;
     height: 985px;
     margin-bottom: 80px;
 }
@@ -172,13 +151,11 @@ fieldset {
 }
 
 .map {
-    width: 1180px;
     height: 805px;
     margin-bottom: 80px;
 }
 
 .news {
-    width: 1180px;
     height: 568px;
     margin-bottom: 80px;
 }
@@ -189,25 +166,22 @@ fieldset {
 }
 
 .product {
-    width: 1180px;
 }
 
 .new {
     width: 380px;
-height: 478px;
-grid-row: 20px;
+    height: 478px;
+    grid-row: 20px;
 }
 
-.new-container{
+.new-container {
     display: flex;
     justify-content: space-between;
 }
 
 .footer {
-    width: 1440px;
+    width: 100%;
+   
     height: 361px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-left: 0;
+    margin:0 auto;
 }
