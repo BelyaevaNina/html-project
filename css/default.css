@@ -1,6 +1,6 @@
-
 .body-container {
     width: 100%;
+    width: 1180px;
     font-family: 'Source Sans 3';
     min-width: 320px;
     min-height: 100vh;
@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 img,
@@ -47,7 +47,7 @@ fieldset {
     transform: scale(0);
 }
 
-.second-title {
+.title {
     font-size: 48px;
     font-weight: 700;
     line-height: 57px;
@@ -79,7 +79,7 @@ fieldset {
 .main-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 19.2px;
+    line-height: 19px;
     text-align: left;
 }
 
@@ -109,9 +109,42 @@ fieldset {
 
 .about {
     height: 602px;
-    top: 921px;
-    left: 130px;
     margin-bottom: 80px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    width: 580px;
+    height: 110px;
+    margin-bottom: 24px;
+}
+
+.about-second-text {
+    width: 580px;
+    height: 66px;
+}
+
+.about-images {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.about-img-container {
+    position: relative;
+    width: 580px;
+    height: 280px;
+}
+
+.about-img {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .products {
@@ -146,11 +179,6 @@ fieldset {
     margin-bottom: 32px;
 }
 
-.title-news {
-    width: 340px;
-    height: 58px;
-    margin-bottom: 32px;
-}
 
 .map {
     height: 805px;
@@ -167,8 +195,7 @@ fieldset {
     height: 435px;
 }
 
-.product {
-}
+.product {}
 
 .new {
     width: 380px;
@@ -186,5 +213,5 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
     height: 361px;
-    margin:0 auto;
+    margin: 0 auto;
 }
