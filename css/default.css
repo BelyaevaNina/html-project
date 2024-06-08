@@ -196,6 +196,7 @@ fieldset {
 }
 
 .bg {
+    background-color: #F5F5F5;
     width: 380px;
     height: 435px;
 }
