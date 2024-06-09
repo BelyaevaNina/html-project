@@ -195,13 +195,140 @@ fieldset {
     margin-bottom: 80px;
 }
 
-.bg {
+.product {
     background-color: #F5F5F5;
     width: 380px;
     height: 435px;
 }
 
-.product {}
+.picture-product-1 {
+    width: 200px;
+    height: 194px;
+    margin-right: 156px;
+    margin-top: 32px;
+    margin-bottom: 107px;
+    margin-left: 24px;
+}
+
+.picture-product-2 {
+    width: 200px;
+    height: 112px;
+    margin-right: 156px;
+    margin-top: 55px;
+    margin-bottom: 166px;
+    margin-left: 24px;
+}
+
+.picture-product-3 {
+    width: 200px;
+    height: 158px;
+    margin-right: 156px;
+    margin-top: 32px;
+    margin-bottom: 143px;
+    margin-left: 24px;
+}
+
+.picture-product-4 {
+    width: 200px;
+    height: 149px;
+    margin-right: 156px;
+    margin-top: 32px;
+    margin-bottom: 152px;
+    margin-left: 24px;
+}
+
+.picture-product-5 {
+    width: 200px;
+    height: 141px;
+    margin-right: 156px;
+    margin-top: 32px;
+    margin-bottom: 160px;
+    margin-left: 24px;
+}
+
+.picture-product-6 {
+    width: 200px;
+    height: 141px;
+    margin-right: 156px;
+    margin-top: 32px;
+    margin-bottom: 163px;
+    margin-left: 24px;
+}
+
+.text-product-1 {
+    width: 274px;
+    height: 34px;
+    margin-bottom: 12px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-left: 24px;
+}
+
+.text-product-2 {
+    width: 235px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.text-product-3 {
+    width: 214px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.text-product-4 {
+    width: 279px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.text-product-5 {
+    width: 301px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+.text-product-6 {
+    width: 148px;
+    height: 34px;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 24px;
+}
+
+
+.button-product {
+    width: 113px;
+    height: 24px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    color: #607CE6;
+}
 
 .new {
     width: 380px;
