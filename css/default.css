@@ -76,7 +76,7 @@ fieldset {
     justify-content: flex-start;
 }
 
-.main-text {
+.main_text {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
@@ -434,4 +434,53 @@ fieldset {
     text-align: left;
     margin: 0 auto;
     margin-top: 73px;
+}
+
+
+@media (max-width: 1400px){
+    .footer_nav {
+        margin: 0 auto;
+        margin-left: 5%;
+}
+
+@media (max-width: 1200px){
+    .body-container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .main_text {
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 16px;
+    }
+
+    
+    .main-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+}
+
+@media (max-width: 1000px){
+    .body-container {
+        width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px){
+    .body-container {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px){
+    .body-container {
+        font-size: 6vw;
+        width: 100%;
+        margin: 0 auto;
+    }
 }
