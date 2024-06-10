@@ -461,6 +461,23 @@ fieldset {
         line-height: 60px;
     }
 
+    .hero_title{
+width: 300px;
+    }
+
+    .hero-img{
+width: 700px;
+    }
+
+    .hero-container{
+        width: 700px;
+        height: 200px;
+    }
+
+    .hero{
+        margin-bottom: auto;
+        width: 700px;
+    }
 }
 
 @media (max-width: 1000px){
@@ -475,6 +492,31 @@ fieldset {
         width: 480px;
         margin: 0 auto;
     }
+
+    .hero_text{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .hero-container{
+        width: 480px;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .hero-img{
+        width: 480px;
+    }
+
+    .hero_title{
+        width: 100%;
+    }
+
+    .hero {
+  width: 480px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 400px;
+ }
 }
 
 @media (max-width: 480px){
