@@ -437,16 +437,21 @@ fieldset {
 }
 
 
-@media (max-width: 1400px){
+@media (max-width: 1400px) {
     .footer_nav {
         margin: 0 auto;
         margin-left: 5%;
+    }
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     .body-container {
         width: 1000px;
         margin: 0 auto;
+    }
+
+    .main {
+        width: 100%;
     }
 
     .main_text {
@@ -455,71 +460,101 @@ fieldset {
         line-height: 16px;
     }
 
-    
+
     .main-title {
         font-size: 50px;
         line-height: 60px;
     }
 
-    .hero_title{
-width: 300px;
+    .hero_title {
+        width: 300px;
     }
 
-    .hero-img{
-width: 700px;
+    .hero-img {
+        width: 700px;
+        height: auto;
     }
 
-    .hero-container{
+    .hero-container {
         width: 700px;
         height: 200px;
     }
 
-    .hero{
-        margin-bottom: auto;
+    .hero {
+        margin-bottom: 40px;
         width: 700px;
+        height: auto;
     }
+
+    .about-text, .about-second-text{
+        width: 100%;
+    }
+    .about {
+        margin-bottom: 40px;
+        width: 700px;
+        height: auto;
+    }
+
+    .about-images{
+        flex-direction: column;
+    gap: 20px;
+    }
+
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     .body-container {
         width: 768px;
         margin: 0 auto;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .body-container {
         width: 480px;
         margin: 0 auto;
     }
 
-    .hero_text{
+    .hero_text {
         margin-left: 0%;
         width: 100%;
     }
-    .hero-container{
+
+    .hero-container {
         width: 480px;
         height: 200px;
         flex-direction: column;
     }
 
-    .hero-img{
+    .hero-img {
         width: 480px;
     }
 
-    .hero_title{
+    .hero_title {
         width: 100%;
     }
 
+
+    .about {
+        width: 480px;
+    }
+
+    .about-images{
+        width: 100%;
+    }
+
+    .about-img-container{
+        width: 100%;
+    }
     .hero {
-  width: 480px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 400px;
- }
+        width: 480px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 400px;
+    }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
     .body-container {
         font-size: 6vw;
         width: 100%;
